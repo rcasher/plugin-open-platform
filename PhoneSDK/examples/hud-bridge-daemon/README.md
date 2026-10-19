@@ -37,7 +37,7 @@ Anything that can see MemoMind's live-caption text and issue an HTTP request
 can feed the daemon — no code changes needed on this side. Point it at:
 
 ```
-POST http://127.0.0.1:8080/caption
+POST http://127.0.0.1:8090/caption
 Content-Type: application/json
 
 {"text": "the latest recognized caption text", "final": false}

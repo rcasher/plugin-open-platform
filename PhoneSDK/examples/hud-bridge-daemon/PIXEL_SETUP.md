@@ -47,7 +47,7 @@ python3 coach_daemon.py -v
 
 You should see:
 ```
-caption endpoint: http://127.0.0.1:8080/caption
+caption endpoint: http://127.0.0.1:8090/caption
 hud-bridge endpoint: ws://127.0.0.1:8765
 ```
 
@@ -57,10 +57,10 @@ cue decisions live.
 **Note on networking:** the Linux Terminal VM forwards ports its processes
 bind on `127.0.0.1` back to the Pixel host's `localhost` (same mechanism as
 ChromeOS Crostini). That's what lets the MemoMind app's WebView (running on
-the host OS) reach `ws://127.0.0.1:8765` and `http://127.0.0.1:8080` inside
+the host OS) reach `ws://127.0.0.1:8765` and `http://127.0.0.1:8090` inside
 the VM. If the plugin's "Daemon" status never flips to connected, that
 forwarding is the first thing to check — there's no laptop in the loop here,
-but you can confirm from inside the VM with `curl 127.0.0.1:8080/caption` and
+but you can confirm from inside the VM with `curl 127.0.0.1:8090/caption` and
 separately check whether Android's Linux Terminal settings expose a
 port-forwarding toggle.
 
@@ -72,7 +72,7 @@ live-caption text to it. Simplest path is MacroDroid:
 1. Install MacroDroid on the Pixel.
 2. New macro, trigger: **Notification/Accessibility → text changed**, scoped
    to the MemoMind app.
-3. Action: **HTTP Request** — POST to `http://127.0.0.1:8080/caption`, JSON
+3. Action: **HTTP Request** — POST to `http://127.0.0.1:8090/caption`, JSON
    body `{"text": "<captured text>", "final": false}`.
 
 This needs the MemoMind app's live-caption text to be exposed as a readable
@@ -93,7 +93,7 @@ With the daemon running and the plugin open in MemoMind:
    **Daemon: connected**.
 2. From the Linux Terminal, manually fire a test caption:
    ```sh
-   curl -X POST http://127.0.0.1:8080/caption -H "Content-Type: application/json" \
+   curl -X POST http://127.0.0.1:8090/caption -H "Content-Type: application/json" \
      -d '{"text":"say something that violates your stated values","final":true}'
    ```
 3. Watch the daemon log for a judge call and, if it flags a violation,

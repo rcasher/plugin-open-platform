@@ -26,7 +26,7 @@ DEFAULT_CONFIG = {
     "purpose": "Stay encouraging and on-topic.",
     "values": [],
     "caption_host": "127.0.0.1",
-    "caption_port": 8080,
+    "caption_port": 8090,
     "ws_host": "127.0.0.1",
     "ws_port": 8765,
     "ollama_url": "http://127.0.0.1:11434",
