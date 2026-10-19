@@ -4,7 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8f8ce7-7c1a-41a0-b2aa-c8da74844c5f" name="Changes" comment="update" />
+    <list default="true" id="2d8f8ce7-7c1a-41a0-b2aa-c8da74844c5f" name="Changes" comment="hud bridge coach add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/audio_capture_lab/audio_capture_lab.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/audio_capture_lab/audio_capture_lab.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/audio_capture_lab/audio_capture_lab.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/audio_capture_lab/audio_capture_lab.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/bluetooth/bluetooth.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/bluetooth/bluetooth.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/bluetooth/bluetooth.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/bluetooth/bluetooth.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/display_control_lab/display_control_lab.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/display_control_lab/display_control_lab.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/display_control_lab/display_control_lab.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/display_control_lab/display_control_lab.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/extension/extension.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/extension/extension.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/extension/extension.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/extension/extension.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/framebuffer/framebuffer.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/framebuffer/framebuffer.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/framebuffer/framebuffer.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/framebuffer/framebuffer.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/2048/2048.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/2048/2048.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/2048/2048.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/2048/2048.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/breakout/breakout.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/breakout/breakout.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/breakout/breakout.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/breakout/breakout.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/fighter_arena/fighter_arena.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/fighter_arena/fighter_arena.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/fighter_arena/fighter_arena.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/fighter_arena/fighter_arena.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/jet_runner/jet_runner.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/jet_runner/jet_runner.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/jet_runner/jet_runner.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/jet_runner/jet_runner.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/snake/snake.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/snake/snake.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/snake/snake.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/snake/snake.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/sokoban/sokoban.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/sokoban/sokoban.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/sokoban/sokoban.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/sokoban/sokoban.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/tetris/tetris.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/tetris/tetris.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/tetris/tetris.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/game/tetris/tetris.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/image_animation/image_animation.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/image_animation/image_animation.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/image_animation/image_animation.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/image_animation/image_animation.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/image_viewer/image_viewer.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/image_viewer/image_viewer.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/image_viewer/image_viewer.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/image_viewer/image_viewer.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/imu/imu.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/imu/imu.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/imu/imu.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/imu/imu.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/input/input.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/input/input.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/input/input.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/input/input.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/lvgl_ui/lvgl_ui.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/lvgl_ui/lvgl_ui.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/lvgl_ui/lvgl_ui.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/lvgl_ui/lvgl_ui.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/novel_reader/novel_reader.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/novel_reader/novel_reader.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/novel_reader/novel_reader.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/novel_reader/novel_reader.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/talking_pet/talking_pet.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/talking_pet/talking_pet.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/talking_pet/talking_pet.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/talking_pet/talking_pet.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/web_bridge/web_bridge.review-source.enc" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/web_bridge/web_bridge.review-source.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlassSDK/build-host/.build/web_bridge/web_bridge.review.json" beforeDir="false" afterPath="$PROJECT_DIR$/GlassSDK/build-host/.build/web_bridge/web_bridge.review.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneSDK/dist/app-counter-0.1.0.mmpkg" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneSDK/dist/app-counter-0.1.0.mmpkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneSDK/dist/audio-capture-lab-0.1.10.mmpkg" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneSDK/dist/audio-capture-lab-0.1.10.mmpkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneSDK/dist/display-control-lab-0.1.4.mmpkg" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneSDK/dist/display-control-lab-0.1.4.mmpkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneSDK/dist/fighter-controller-0.1.0.mmpkg" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneSDK/dist/fighter-controller-0.1.0.mmpkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneSDK/dist/image-viewer-0.1.13.mmpkg" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneSDK/dist/image-viewer-0.1.13.mmpkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneSDK/dist/life-desk-2.2.3.mmpkg" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneSDK/dist/life-desk-2.2.3.mmpkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneSDK/dist/novel-reader-0.4.2.mmpkg" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneSDK/dist/novel-reader-0.4.2.mmpkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneSDK/dist/permission-debug-0.2.8.mmpkg" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneSDK/dist/permission-debug-0.2.8.mmpkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneSDK/dist/talking-pet-0.7.11.mmpkg" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneSDK/dist/talking-pet-0.7.11.mmpkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneSDK/dist/tic-tac-toe-1.3.1.mmpkg" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneSDK/dist/tic-tac-toe-1.3.1.mmpkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneSDK/dist/weather-0.1.0.mmpkg" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneSDK/dist/weather-0.1.0.mmpkg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,12 +77,12 @@
     &quot;assignee&quot;: &quot;rcasher&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rcasher/plugin-open-platform.git",
-    "accountId": "72aa7bd5-2c33-488c-bbc4-1c65a0c0e056"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rcasher/plugin-open-platform.git&quot;,
+    &quot;accountId&quot;: &quot;72aa7bd5-2c33-488c-bbc4-1c65a0c0e056&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -39,24 +92,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "DEV",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.updates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;DEV&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -114,7 +167,7 @@
       <workItem from="1789961260646" duration="7484000" />
       <workItem from="1791294767920" duration="302000" />
       <workItem from="1792360549947" duration="6588000" />
-      <workItem from="1792367409498" duration="1148000" />
+      <workItem from="1792367409498" duration="5312000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -132,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792364889770</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hud bridge coach add">
+      <option name="closed" value="true" />
+      <created>1792369787325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1792369787325</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="hud bridge coach add" />
+    <option name="LAST_COMMIT_MESSAGE" value="hud bridge coach add" />
   </component>
 </project>
