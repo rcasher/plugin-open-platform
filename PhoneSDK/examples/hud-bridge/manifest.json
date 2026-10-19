@@ -1,0 +1,31 @@
+{
+  "id": "com.developer.hudbridge",
+  "name": "Speech Coach HUD",
+  "version": "1.0.0",
+  "type": "phone_web",
+  "entry": "index.html",
+  "bridgeVersion": "2.0",
+  "permissions": [
+    {
+      "name": "display",
+      "required": true,
+      "reason": "Flash coaching cues on the glasses HUD"
+    },
+    {
+      "name": "network",
+      "required": true,
+      "reason": "Receive coaching cues from the on-device evaluator daemon"
+    }
+  ],
+  "deviceRequirements": {
+    "preferredPluginId": "com.gm.example.web-bridge",
+    "protocols": [
+      {
+        "id": "gm.scene",
+        "minVersion": "1.0"
+      }
+    ]
+  },
+  "schemaVersion": 2,
+  "permissionPolicyVersion": 1
+}

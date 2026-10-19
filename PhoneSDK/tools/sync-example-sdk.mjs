@@ -14,6 +14,7 @@ for (const plugin of [
   'examples/display-control-lab',
   'examples/permission-debug',
   'examples/fighter-controller',
+  'examples/hud-bridge',
   'examples/life-desk',
   'examples/novel-reader',
   'examples/talking-pet',

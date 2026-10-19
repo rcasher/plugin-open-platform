@@ -15,6 +15,7 @@ test('example SDK copies match the formal standalone SDK', async () => {
     'examples/display-control-lab',
     'examples/permission-debug',
     'examples/fighter-controller',
+    'examples/hud-bridge',
     'examples/life-desk',
     'examples/novel-reader',
     'examples/talking-pet',
